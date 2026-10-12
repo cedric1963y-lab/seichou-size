@@ -5,7 +5,7 @@ struct HomeView: View {
     @EnvironmentObject var purchase: Purchase
     @State private var path: [UUID] = (Showcase.scene == "detail" || Showcase.scene == "brand" || Showcase.scene == "record") ? [Showcase.taroID] : []
     @State private var editingChild: Child?
-    @State private var paywall = false
+    @State private var paywall = Showcase.scene == "unlock"
 
     var body: some View {
         NavigationStack(path: $path) {
