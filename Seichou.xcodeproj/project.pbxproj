@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DE281F23475A70698F99881 /* OtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B0B8F08309083D947860C /* OtherViews.swift */; };
+		4C0119012604383CE8545627 /* SeichouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C4F4BC08A40FE816EA873B /* SeichouApp.swift */; };
+		769A584349EF031FEA4A05D0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19056A5E4D21EB45B2309A /* DataStore.swift */; };
+		831282DC74A81E8B06C4DF4A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 23103147543A9A062DB54AD1 /* PrivacyInfo.xcprivacy */; };
+		86720638714B9D69674F90EB /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5AC206915A628DE99CDC5 /* HomeViews.swift */; };
+		A0739F4FE55475A3A5A0CF46 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86258236798FE60D95AE7F9B /* Purchase.swift */; };
+		E5153A63F621FA72AFB14B82 /* EditViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1DEE77B17DC55EB154D1BD /* EditViews.swift */; };
+		ED3E2C30B22D050D7DD9552A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1276D9DBA46CCA6CA712 /* Models.swift */; };
+		F4BEB9EAC5567EDB5BC7A349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99894FCB7B9D848ABAA5E833 /* Assets.xcassets */; };
+		FEE7C6A685CBF739140DDB69 /* Showcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603848C34F6980625EC131C0 /* Showcase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23103147543A9A062DB54AD1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		37C84DFDDC1CE836068151B1 /* Seichou.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Seichou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDB1276D9DBA46CCA6CA712 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		603848C34F6980625EC131C0 /* Showcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showcase.swift; sourceTree = "<group>"; };
+		6F1B0B8F08309083D947860C /* OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViews.swift; sourceTree = "<group>"; };
+		86258236798FE60D95AE7F9B /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		99894FCB7B9D848ABAA5E833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF19056A5E4D21EB45B2309A /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		C5B5AC206915A628DE99CDC5 /* HomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViews.swift; sourceTree = "<group>"; };
+		DA1DEE77B17DC55EB154D1BD /* EditViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViews.swift; sourceTree = "<group>"; };
+		EE320D94D86C59E892E3D55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2C4F4BC08A40FE816EA873B /* SeichouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeichouApp.swift; sourceTree = "<group>"; };
+		F65326F7543712E192A8190C /* Configuration.storekit */ = {isa = PBXFileReference; path = Configuration.storekit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		48FA83383ACBD6C8936A4F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37C84DFDDC1CE836068151B1 /* Seichou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4F92D172D1A02D6AEC5E12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1276D9DBA46CCA6CA712 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		713816CBDA524BD3C91A1F7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA1DEE77B17DC55EB154D1BD /* EditViews.swift */,
+				C5B5AC206915A628DE99CDC5 /* HomeViews.swift */,
+				6F1B0B8F08309083D947860C /* OtherViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C68E73BBA4BDFE512A4ACBC3 /* Seichou */ = {
+			isa = PBXGroup;
+			children = (
+				99894FCB7B9D848ABAA5E833 /* Assets.xcassets */,
+				F65326F7543712E192A8190C /* Configuration.storekit */,
+				EE320D94D86C59E892E3D55D /* Info.plist */,
+				23103147543A9A062DB54AD1 /* PrivacyInfo.xcprivacy */,
+				D686806C4087C7C5EEF0545B /* App */,
+				6C4F92D172D1A02D6AEC5E12 /* Models */,
+				FC986A9E7F554619C913EA05 /* Services */,
+				713816CBDA524BD3C91A1F7F /* Views */,
+			);
+			path = Seichou;
+			sourceTree = "<group>";
+		};
+		D686806C4087C7C5EEF0545B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F2C4F4BC08A40FE816EA873B /* SeichouApp.swift */,
+				603848C34F6980625EC131C0 /* Showcase.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE4564509DD3F90AD330F4DF = {
+			isa = PBXGroup;
+			children = (
+				C68E73BBA4BDFE512A4ACBC3 /* Seichou */,
+				48FA83383ACBD6C8936A4F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC986A9E7F554619C913EA05 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BF19056A5E4D21EB45B2309A /* DataStore.swift */,
+				86258236798FE60D95AE7F9B /* Purchase.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8709301236537237EE0BAAF2 /* Seichou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB969C603392D6D50AFF5EF /* Build configuration list for PBXNativeTarget "Seichou" */;
+			buildPhases = (
+				14DB9F701EB60F7EBC7591F1 /* Sources */,
+				40F85B7DEEBFE24F16E9FB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seichou;
+			packageProductDependencies = (
+			);
+			productName = Seichou;
+			productReference = 37C84DFDDC1CE836068151B1 /* Seichou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BAA508F819CAA92157D25B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8709301236537237EE0BAAF2 = {
+						DevelopmentTeam = AJ24KB4M4W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDDFC2BD4489C810A50835EC /* Build configuration list for PBXProject "Seichou" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DE4564509DD3F90AD330F4DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 48FA83383ACBD6C8936A4F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8709301236537237EE0BAAF2 /* Seichou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F85B7DEEBFE24F16E9FB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BEB9EAC5567EDB5BC7A349 /* Assets.xcassets in Resources */,
+				831282DC74A81E8B06C4DF4A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14DB9F701EB60F7EBC7591F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769A584349EF031FEA4A05D0 /* DataStore.swift in Sources */,
+				E5153A63F621FA72AFB14B82 /* EditViews.swift in Sources */,
+				86720638714B9D69674F90EB /* HomeViews.swift in Sources */,
+				ED3E2C30B22D050D7DD9552A /* Models.swift in Sources */,
+				1DE281F23475A70698F99881 /* OtherViews.swift in Sources */,
+				A0739F4FE55475A3A5A0CF46 /* Purchase.swift in Sources */,
+				4C0119012604383CE8545627 /* SeichouApp.swift in Sources */,
+				FEE7C6A685CBF739140DDB69 /* Showcase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		005495F30BE01A8486EE2B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = NO;
+				INFOPLIST_FILE = Seichou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hayatosuzuki.seichousize;
+				PRODUCT_NAME = Seichou;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		72B168F8D350DBFF82C4E621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AJ24KB4M4W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BBED031D366CD526B7E3AD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = NO;
+				INFOPLIST_FILE = Seichou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hayatosuzuki.seichousize;
+				PRODUCT_NAME = Seichou;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA73F5C8709E3A8313658B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AJ24KB4M4W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB969C603392D6D50AFF5EF /* Build configuration list for PBXNativeTarget "Seichou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED031D366CD526B7E3AD94 /* Debug */,
+				005495F30BE01A8486EE2B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDDFC2BD4489C810A50835EC /* Build configuration list for PBXProject "Seichou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA73F5C8709E3A8313658B06 /* Debug */,
+				72B168F8D350DBFF82C4E621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BAA508F819CAA92157D25B7 /* Project object */;
+}
