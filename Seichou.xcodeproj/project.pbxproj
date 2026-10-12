@@ -12,7 +12,9 @@
 		769A584349EF031FEA4A05D0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19056A5E4D21EB45B2309A /* DataStore.swift */; };
 		831282DC74A81E8B06C4DF4A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 23103147543A9A062DB54AD1 /* PrivacyInfo.xcprivacy */; };
 		86720638714B9D69674F90EB /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5AC206915A628DE99CDC5 /* HomeViews.swift */; };
+		923F9B4ACA24A5A82854E790 /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F97368A66D28BE9529955D /* Ads.swift */; };
 		A0739F4FE55475A3A5A0CF46 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86258236798FE60D95AE7F9B /* Purchase.swift */; };
+		E32C117113943272F115398C /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 87458892D8B429AC954D5050 /* GoogleMobileAds */; };
 		E5153A63F621FA72AFB14B82 /* EditViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1DEE77B17DC55EB154D1BD /* EditViews.swift */; };
 		ED3E2C30B22D050D7DD9552A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1276D9DBA46CCA6CA712 /* Models.swift */; };
 		F4BEB9EAC5567EDB5BC7A349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99894FCB7B9D848ABAA5E833 /* Assets.xcassets */; };
@@ -23,6 +25,7 @@
 		23103147543A9A062DB54AD1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		37C84DFDDC1CE836068151B1 /* Seichou.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Seichou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDB1276D9DBA46CCA6CA712 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		59F97368A66D28BE9529955D /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
 		603848C34F6980625EC131C0 /* Showcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showcase.swift; sourceTree = "<group>"; };
 		6F1B0B8F08309083D947860C /* OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViews.swift; sourceTree = "<group>"; };
 		86258236798FE60D95AE7F9B /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
@@ -34,6 +37,17 @@
 		F2C4F4BC08A40FE816EA873B /* SeichouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeichouApp.swift; sourceTree = "<group>"; };
 		F65326F7543712E192A8190C /* Configuration.storekit */ = {isa = PBXFileReference; path = Configuration.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8188CC626D6DD91FE0862F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32C117113943272F115398C /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		48FA83383ACBD6C8936A4F31 /* Products */ = {
@@ -97,6 +111,7 @@
 		FC986A9E7F554619C913EA05 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				59F97368A66D28BE9529955D /* Ads.swift */,
 				BF19056A5E4D21EB45B2309A /* DataStore.swift */,
 				86258236798FE60D95AE7F9B /* Purchase.swift */,
 			);
@@ -112,6 +127,7 @@
 			buildPhases = (
 				14DB9F701EB60F7EBC7591F1 /* Sources */,
 				40F85B7DEEBFE24F16E9FB3B /* Resources */,
+				B8188CC626D6DD91FE0862F6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,6 +135,7 @@
 			);
 			name = Seichou;
 			packageProductDependencies = (
+				87458892D8B429AC954D5050 /* GoogleMobileAds */,
 			);
 			productName = Seichou;
 			productReference = 37C84DFDDC1CE836068151B1 /* Seichou.app */;
@@ -148,6 +165,9 @@
 			);
 			mainGroup = DE4564509DD3F90AD330F4DF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				441D708C0A4F399E5E51AC25 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 48FA83383ACBD6C8936A4F31 /* Products */;
 			projectDirPath = "";
@@ -175,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923F9B4ACA24A5A82854E790 /* Ads.swift in Sources */,
 				769A584349EF031FEA4A05D0 /* DataStore.swift in Sources */,
 				E5153A63F621FA72AFB14B82 /* EditViews.swift in Sources */,
 				86720638714B9D69674F90EB /* HomeViews.swift in Sources */,
@@ -199,6 +220,9 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.hayatosuzuki.seichousize;
 				PRODUCT_NAME = Seichou;
@@ -242,7 +266,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = AJ24KB4M4W;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -278,6 +302,9 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.hayatosuzuki.seichousize;
 				PRODUCT_NAME = Seichou;
@@ -321,7 +348,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = AJ24KB4M4W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -376,6 +403,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		441D708C0A4F399E5E51AC25 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87458892D8B429AC954D5050 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 441D708C0A4F399E5E51AC25 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BAA508F819CAA92157D25B7 /* Project object */;
 }

@@ -4,12 +4,14 @@ import SwiftUI
 struct SeichouApp: App {
     @StateObject private var store = DataStore()
     @StateObject private var purchase = Purchase()
+    init() { Ads.start() }
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(store)
                 .environmentObject(purchase)
                 .tint(Theme.accent)
+                .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in Ads.requestATT() }
         }
     }
 }
@@ -28,11 +30,14 @@ enum Theme {
 struct ContentView: View {
     @State private var tab = Showcase.initialTab
     var body: some View {
+        VStack(spacing: 0) {
         TabView(selection: $tab) {
             HomeView().tabItem { Label("きろく", systemImage: "ruler.fill") }.tag(0)
             GraphTab().tabItem { Label("グラフ", systemImage: "chart.xyaxis.line") }.tag(1)
             SheetTab().tabItem { Label("サイズ表", systemImage: "square.and.arrow.up") }.tag(2)
             SettingsView().tabItem { Label("設定", systemImage: "gearshape.fill") }.tag(3)
+        }
+        AdBanner()
         }
     }
 }
